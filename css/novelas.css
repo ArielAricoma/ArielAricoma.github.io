@@ -1,0 +1,29 @@
+/* Estilos CSS para los enlaces (que parecen botones) */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Esto hace que los elementos se muestren en línea */
+    margin-right: 10px; /* Espacio entre los elementos (ajusta según tus preferencias) */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen a la derecha del último elemento para evitar espacio adicional */
+}
+
+nav ul li a {
+    display: block; /* Esto permite que el enlace llene el espacio completo del elemento li */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}

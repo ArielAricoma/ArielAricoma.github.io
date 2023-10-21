@@ -1,13 +1,56 @@
-.list{
-    list-style: nome;
+body{
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    gap: 40px;
-}
-.link{
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(88, 53, 95);
     position: relative;
-    display: inline-block;
-    text-decoration: nome;
-    color: rgb(63, 7, 63);
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    display: block; 
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+.nombre{
+    position: absolute;
+    top: 70%;
+    font-size: 11px;
+    color: rgb(16, 9, 22);
     font-weight: 800;
+}
+#search-fonm{
+    position:static; /* Posicionamiento absoluto para ubicar el formulario */
+    top: 5; /* En la parte superior */
+    left: 5; /* En la parte izquierda */
+    padding: 10px; /* Añadir espacio alrededor del formulario (ajusta según tus preferencias) */
+    background-color: #b38023; /* Color de fondo del formulario */
+}
+#search-input {
+    width: 100px; /* Ancho del cuadro de búsqueda (ajusta según tus preferencias) */
+    padding: 0px;
+    border: 0px solid #ad2e74; /* Borde del cuadro de búsqueda */
 }
