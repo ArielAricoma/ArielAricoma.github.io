@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Un Poco Para Leer</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    <p>como estas</p>
+    <div class="buscador">
+        <input type="text" id="buscadorInput" placeholder=" Buscar ">
+        <button id="buscadorButton">Buscar</button>
+    </div>
+    <script>
+        document.getElementById('buscadorButton').addEventListener('click', function() {
+            let busqueda = document.getElementById('buscadorInput').value;
+            // Aquí lo que buscaremos
+            console.log('Buscando:', busqueda);
+        });
+    </script>
+    <ul class="list">
+        <li><a href="#" class="link">Inicio</a></li>
+        <li><a href="#" class="link">Novelas</a></li>
+        <li><a href="#" class="link">Informacion</a></li>
+    </ul>
 </body>
 </html>

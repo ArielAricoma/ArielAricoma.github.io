@@ -1,0 +1,13 @@
+.list{
+    list-style: nome;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link{
+    position: relative;
+    display: inline-block;
+    text-decoration: nome;
+    color: rgb(63, 7, 63);
+    font-weight: 800;
+}
