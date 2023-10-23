@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(107, 33, 82);
+}
 /* Estilos CSS para los enlaces (que parecen botones) */
 nav ul {
     list-style-type: none;

@@ -1,14 +1,11 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
     background-color: rgb(88, 53, 95);
-    position: relative;
-    overflow: hidden;
 }
 nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +13,7 @@ nav ul {
 nav ul li {
     display: inline-block; 
     margin-right: 10px; 
+    
 }
 
 nav ul li:last-child {
@@ -42,10 +40,10 @@ nav ul li a:hover {
     color: rgb(16, 9, 22);
     font-weight: 800;
 }
-#search-fonm{
-    position:static; /* Posicionamiento absoluto para ubicar el formulario */
-    top: 5; /* En la parte superior */
-    left: 5; /* En la parte izquierda */
+#search-form{
+    position:absolute; /* Posicionamiento absoluto para ubicar el formulario */
+    top: 5px; /* En la parte superior */
+    right: 5px;
     padding: 10px; /* Añadir espacio alrededor del formulario (ajusta según tus preferencias) */
     background-color: #b38023; /* Color de fondo del formulario */
 }
