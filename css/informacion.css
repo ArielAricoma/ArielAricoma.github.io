@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(107, 33, 82);
+    background-color: rgb(71, 109, 103);
 }
 /* Estilos CSS para los enlaces (que parecen botones) */
 nav ul {
@@ -20,13 +20,43 @@ nav ul li:last-child {
 nav ul li a {
     display: block; /* Esto permite que el enlace llene el espacio completo del elemento li */
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #cac71a;
+    color: #5c29ad;
     text-decoration: none;
-    border: 1px solid #007BFF;
+    border: 1px solid #485664;
     border-radius: 5px;
 }
 
 nav ul li a:hover {
     background-color: #0056b3;
+}
+.mt3 {
+
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+  #frm {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
 }

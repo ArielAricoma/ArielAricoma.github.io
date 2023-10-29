@@ -10,13 +10,35 @@
     <nav>
         <ul>
             <li>
-                <a href="/inicio.html">Inicio</a>
+                <a href="/html/index.html">
+                    <img src="../imagenes/hogar.png" 
+                    width="20px"
+                    height="20px"
+                    alt="">
+                </a>
             </li>
             <li>
                 <a href="/html/novelas.html">Novelas</a>
             </li>
         </ul>
     </nav>
-    
+    <div>
+        <h1>Aca dejo algunas cosas de donde eh sacado imagenes o iconos para hacer la pagina </h1>
+        <h2>Si deseas puedes registrarte en la pagina</h2>
+        
+    </div>
+    <form onsubmit="return registro()" id="frm">
+        <label class="d-block mt1" form="f_nombre">Nombre</label>
+        <input class="d-block" id="f_nombre" name="f_nombre"/>
+        <label class="d-block mt1" for="f_apellido">Apellido</label>
+        <input class="d-block" id="f_apellido" name="f_apellido"/>
+        <label class="d-block mt1" for="f_gmail">Gmail</label>
+        <input class="d-block" id="f_gmail" name="f_gmail"/>
+
+        <button class="d-block mt3" type="submit" id="btnRegistro">Enviar</button>
+    </form>
+    <p id="pRegistro"></p>
+    <ul id="ltaErrores"></ul>
+    <script src="../Js/arriba.js"></script>
 </body>
 </html>

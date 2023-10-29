@@ -30,12 +30,12 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3;
 }
-article{
-    
-    display: inline-block;
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: auto;
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    background-color: #3e0658;
 }
