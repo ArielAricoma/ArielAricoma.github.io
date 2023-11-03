@@ -87,3 +87,13 @@ form button {
 form button:hover {
     background-color: #555;
 }
+p{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-right: 50px;
+}
+ul{
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 0;    
+}

@@ -1,8 +1,9 @@
 const pRegistro = document.getElementById("pRegistro");
 const ltaErrores = document.getElementById("ltaErrores");
 const btnRegistro = document.getElementById("btnRegistro");
-
-function registro(){
+const frm = document.getElementById("frm");
+frm.addEventListener("submit",function(e){
+    e.preventDefault();
     let f_nombre = document.getElementById("f_nombre");
     let nombre = f_nombre.value.trim();
     let f_apellido = document.getElementById("f_apellido");
@@ -58,10 +59,10 @@ function registro(){
         return false;
     }
 
-    let mje = `¡Hola ${nombre} ${apellido} ${gmail}!`;
-    pSaludo.innerText = mje;
+    let mje = `¡Hola... Bienvenido ${nombre} ${apellido} !`;
+    pRegistro.innerText = mje;
     return false;
-}
+});
 function validarGmail(gmail){
     const falta = /@/ ;
     return falta.test(gmail);
