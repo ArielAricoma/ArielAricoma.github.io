@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(9, 70, 49);
+    background-color: rgb(18, 95, 68);
 }
 /* Estilos CSS para los enlaces (que parecen botones) */
 nav ul {
@@ -40,11 +40,15 @@ nav ul li a:hover {
     margin-left: auto;
 }
 h1{
-    font-size: 3em;
+    font-size: 3rem;
     color: white;
     text-align:center;
 }
 p{
-    font-size: 1.5em;
+    font-size: 1.9em;
     color: rgb(190, 57, 168);
+}
+h2{
+    font-size: 1.9rem;
+    color: rgb(46, 21, 20)
 }
