@@ -1,7 +1,7 @@
-var imagenes = ['../imagenes/De-gamer-a-soldado.jpg',
-    '../imagenes/El-multimillonario-disfrazado-contraataca.jpg',
-    '../imagenes/La-leyenda-del-joven-maestro.jpg',
-    '../imagenes/Mi-esposa-es-millonaria.jpg'];
+var imagenes = ['/imagenes/De-gamer-a-soldado.jpg',
+    '/imagenes/El-multimillonario-disfrazado-contraataca.jpg',
+    '/imagenes/La-leyenda-del-joven-maestro.jpg',
+    '/imagenes/Mi-esposa-es-millonaria.jpg'];
 
 document.addEventListener("DOMContentLoaded", (event) => {
     let cont = 0;
