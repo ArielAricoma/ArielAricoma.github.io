@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 img.src = imagenes[imagenes.length - 1];
                 cont = imagenes.length - 1;
             }
-        } else if (tgt === siguiente) {
+        } else if (tgt === siguiente) { 
             if (cont + 1 < imagenes.length) {
                 img.src = imagenes[cont + 1];
                 cont++;

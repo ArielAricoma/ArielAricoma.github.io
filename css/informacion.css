@@ -30,33 +30,60 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3;
 }
-.mt3 {
-
-    background: #5E5DF0;
-    border-radius: 999px;
-    box-shadow: #5E5DF0 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    opacity: 1;
-    outline: 0 solid transparent;
-    padding: 8px 18px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: fit-content;
-    word-break: break-word;
-    border: 0;
-  }
-  #frm {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    padding: 20px;
+h2{
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 500px;
     margin: 20px auto;
+    padding: 20px;
+    background-color: #9faec9;
+    border-radius: 10px;
+}
+
+form h1 {
+    font-size: 100px;
+    color: #151801;
+    margin-bottom: 50px;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #964f4f;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
 }
